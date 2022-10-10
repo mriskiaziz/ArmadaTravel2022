@@ -8,17 +8,18 @@ const Login = () => {
 
   return (
     <div className="container">
+      <h2>Login Staff & Teknisi</h2>
       <div className="box">
-        <h3>Armada Travel</h3>
         <form action="" method="">
-          <label>Username</label>
-          <input type="text" name="info" />
-          <label>Password</label>
-          <input type="text" name="info" />
+          <input type="text" name="info" placeholder="Email Pengguna" />
+          <input type="text" name="info" placeholder="Kata Sandi" />
         </form>
         <Link to="/dashboard" className="btn">
           LOGIN
         </Link>
+        <h4>
+          Lupa password ? Klik <span>di sini</span>{" "}
+        </h4>
       </div>
     </div>
   );

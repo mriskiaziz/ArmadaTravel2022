@@ -2,26 +2,42 @@ html,body{
     display: grid;
     height: 100%;
     width: 100%;
-    place-items: center;
-    background: -webkit-linear-gradient(-45deg, rgb(51, 164, 199), rgba(26, 39, 157, 0.75));   
+    background-color: #C7C5C5;
 }
 .box{
     display: flex;
     flex-direction: column;
-    width: 270px;
-    height: 290px;
-    padding: 20px;
+    width: 700px;
+    height: auto;
     padding-inline: 40px;
+    padding-top: 150px;
+    padding-bottom: 50px;
     border-radius: 6px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 input{
-    height: 25px;
+    height: 45px;
     padding-inline: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 17pt;
+    margin-top: 50px;
 }
 
-h3{
+h4{
     align-self: center;
+    color: #FF0000;
+    font-weight: bold;
+}
+span{
+    color: #007BFF;
 }
 label{
     margin-block: 10px;
